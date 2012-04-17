@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890844EE153E26BB00A573CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890844ED153E26BB00A573CB /* Foundation.framework */; };
+		890844F4153E26BB00A573CB /* PlayingCardAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 890844F3153E26BB00A573CB /* PlayingCardAPI.m */; };
+		890844FC153E26BB00A573CB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890844FB153E26BB00A573CB /* SenTestingKit.framework */; };
+		890844FE153E26BB00A573CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890844FD153E26BB00A573CB /* UIKit.framework */; };
+		890844FF153E26BB00A573CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890844ED153E26BB00A573CB /* Foundation.framework */; };
+		89084502153E26BB00A573CB /* libPlayingCardAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 890844EA153E26BB00A573CB /* libPlayingCardAPI.a */; };
+		89084508153E26BB00A573CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89084506153E26BB00A573CB /* InfoPlist.strings */; };
+		8908450B153E26BB00A573CB /* PlayingCardAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8908450A153E26BB00A573CB /* PlayingCardAPITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89084500153E26BB00A573CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890844E1153E26BA00A573CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890844E9153E26BB00A573CB;
+			remoteInfo = PlayingCardAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		890844EA153E26BB00A573CB /* libPlayingCardAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPlayingCardAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		890844ED153E26BB00A573CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		890844F1153E26BB00A573CB /* PlayingCardAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayingCardAPI-Prefix.pch"; sourceTree = "<group>"; };
+		890844F2153E26BB00A573CB /* PlayingCardAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardAPI.h; sourceTree = "<group>"; };
+		890844F3153E26BB00A573CB /* PlayingCardAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardAPI.m; sourceTree = "<group>"; };
+		890844FA153E26BB00A573CB /* PlayingCardAPITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingCardAPITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890844FB153E26BB00A573CB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		890844FD153E26BB00A573CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		89084505153E26BB00A573CB /* PlayingCardAPITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayingCardAPITests-Info.plist"; sourceTree = "<group>"; };
+		89084507153E26BB00A573CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89084509153E26BB00A573CB /* PlayingCardAPITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardAPITests.h; sourceTree = "<group>"; };
+		8908450A153E26BB00A573CB /* PlayingCardAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardAPITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		890844E7153E26BB00A573CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890844EE153E26BB00A573CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890844F6153E26BB00A573CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890844FC153E26BB00A573CB /* SenTestingKit.framework in Frameworks */,
+				890844FE153E26BB00A573CB /* UIKit.framework in Frameworks */,
+				890844FF153E26BB00A573CB /* Foundation.framework in Frameworks */,
+				89084502153E26BB00A573CB /* libPlayingCardAPI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		890844DF153E26BA00A573CB = {
+			isa = PBXGroup;
+			children = (
+				890844EF153E26BB00A573CB /* PlayingCardAPI */,
+				89084503153E26BB00A573CB /* PlayingCardAPITests */,
+				890844EC153E26BB00A573CB /* Frameworks */,
+				890844EB153E26BB00A573CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		890844EB153E26BB00A573CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				890844EA153E26BB00A573CB /* libPlayingCardAPI.a */,
+				890844FA153E26BB00A573CB /* PlayingCardAPITests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		890844EC153E26BB00A573CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				890844ED153E26BB00A573CB /* Foundation.framework */,
+				890844FB153E26BB00A573CB /* SenTestingKit.framework */,
+				890844FD153E26BB00A573CB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		890844EF153E26BB00A573CB /* PlayingCardAPI */ = {
+			isa = PBXGroup;
+			children = (
+				890844F2153E26BB00A573CB /* PlayingCardAPI.h */,
+				890844F3153E26BB00A573CB /* PlayingCardAPI.m */,
+				890844F0153E26BB00A573CB /* Supporting Files */,
+			);
+			path = PlayingCardAPI;
+			sourceTree = "<group>";
+		};
+		890844F0153E26BB00A573CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				890844F1153E26BB00A573CB /* PlayingCardAPI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89084503153E26BB00A573CB /* PlayingCardAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				89084509153E26BB00A573CB /* PlayingCardAPITests.h */,
+				8908450A153E26BB00A573CB /* PlayingCardAPITests.m */,
+				89084504153E26BB00A573CB /* Supporting Files */,
+			);
+			path = PlayingCardAPITests;
+			sourceTree = "<group>";
+		};
+		89084504153E26BB00A573CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89084505153E26BB00A573CB /* PlayingCardAPITests-Info.plist */,
+				89084506153E26BB00A573CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		890844E8153E26BB00A573CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		890844E9153E26BB00A573CB /* PlayingCardAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8908450E153E26BB00A573CB /* Build configuration list for PBXNativeTarget "PlayingCardAPI" */;
+			buildPhases = (
+				890844E6153E26BB00A573CB /* Sources */,
+				890844E7153E26BB00A573CB /* Frameworks */,
+				890844E8153E26BB00A573CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayingCardAPI;
+			productName = PlayingCardAPI;
+			productReference = 890844EA153E26BB00A573CB /* libPlayingCardAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		890844F9153E26BB00A573CB /* PlayingCardAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89084511153E26BB00A573CB /* Build configuration list for PBXNativeTarget "PlayingCardAPITests" */;
+			buildPhases = (
+				890844F5153E26BB00A573CB /* Sources */,
+				890844F6153E26BB00A573CB /* Frameworks */,
+				890844F7153E26BB00A573CB /* Resources */,
+				890844F8153E26BB00A573CB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89084501153E26BB00A573CB /* PBXTargetDependency */,
+			);
+			name = PlayingCardAPITests;
+			productName = PlayingCardAPITests;
+			productReference = 890844FA153E26BB00A573CB /* PlayingCardAPITests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		890844E1153E26BA00A573CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Apple;
+			};
+			buildConfigurationList = 890844E4153E26BA00A573CB /* Build configuration list for PBXProject "PlayingCardAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 890844DF153E26BA00A573CB;
+			productRefGroup = 890844EB153E26BB00A573CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				890844E9153E26BB00A573CB /* PlayingCardAPI */,
+				890844F9153E26BB00A573CB /* PlayingCardAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		890844F7153E26BB00A573CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89084508153E26BB00A573CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		890844F8153E26BB00A573CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		890844E6153E26BB00A573CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890844F4153E26BB00A573CB /* PlayingCardAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890844F5153E26BB00A573CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8908450B153E26BB00A573CB /* PlayingCardAPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89084501153E26BB00A573CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890844E9153E26BB00A573CB /* PlayingCardAPI */;
+			targetProxy = 89084500153E26BB00A573CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89084506153E26BB00A573CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89084507153E26BB00A573CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8908450C153E26BB00A573CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8908450D153E26BB00A573CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8908450F153E26BB00A573CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PlayingCardAPI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayingCardAPI/PlayingCardAPI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		89084510153E26BB00A573CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PlayingCardAPI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayingCardAPI/PlayingCardAPI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		89084512153E26BB00A573CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayingCardAPI/PlayingCardAPI-Prefix.pch";
+				INFOPLIST_FILE = "PlayingCardAPITests/PlayingCardAPITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		89084513153E26BB00A573CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayingCardAPI/PlayingCardAPI-Prefix.pch";
+				INFOPLIST_FILE = "PlayingCardAPITests/PlayingCardAPITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		890844E4153E26BA00A573CB /* Build configuration list for PBXProject "PlayingCardAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8908450C153E26BB00A573CB /* Debug */,
+				8908450D153E26BB00A573CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8908450E153E26BB00A573CB /* Build configuration list for PBXNativeTarget "PlayingCardAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8908450F153E26BB00A573CB /* Debug */,
+				89084510153E26BB00A573CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89084511153E26BB00A573CB /* Build configuration list for PBXNativeTarget "PlayingCardAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89084512153E26BB00A573CB /* Debug */,
+				89084513153E26BB00A573CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 890844E1153E26BA00A573CB /* Project object */;
+}

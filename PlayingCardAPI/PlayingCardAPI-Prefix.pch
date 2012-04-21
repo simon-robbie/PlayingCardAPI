@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'PlayingCardAPI' target in the 'PlayingCardAPI' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif
